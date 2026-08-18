@@ -1,0 +1,53 @@
+{
+  "notice": "Synthetic public example only. This is not private telemetry and not the production API schema.",
+  "apiary": {
+    "sample_id": "apiary-sample-001",
+    "label": "North Yard"
+  },
+  "hive": {
+    "sample_id": "hive-h17",
+    "label": "Hive H-17"
+  },
+  "device": {
+    "sample_id": "device-sample-pico-01",
+    "type": "temperature_humidity_acoustic"
+  },
+  "observations": [
+    {
+      "observed_at": "2026-07-14T16:30:00Z",
+      "received_at": "2026-07-14T16:30:04Z",
+      "metric": "temperature",
+      "unit": "c",
+      "value": 34.1,
+      "quality": 0.98
+    },
+    {
+      "observed_at": "2026-07-14T16:30:00Z",
+      "received_at": "2026-07-14T16:30:04Z",
+      "metric": "humidity",
+      "unit": "percent",
+      "value": 67.0,
+      "quality": 0.97
+    },
+    {
+      "observed_at": "2026-07-14T16:30:01Z",
+      "received_at": "2026-07-14T16:30:04Z",
+      "metric": "acoustic_fundamental_frequency",
+      "unit": "hz",
+      "value": 142.0,
+      "quality": 0.81
+    },
+    {
+      "observed_at": "2026-07-14T16:30:01Z",
+      "received_at": "2026-07-14T16:30:04Z",
+      "metric": "acoustic_rms",
+      "unit": "normalized_adc",
+      "value": 0.19,
+      "quality": 0.84
+    }
+  ],
+  "sample_alert_state": {
+    "active_alerts": 0,
+    "note": "No alert in this synthetic sample is a statement about the sample only, not a health diagnosis."
+  }
+}
