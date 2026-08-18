@@ -4,6 +4,36 @@ Bee Intelligence is an AI intelligence and future robotics platform for agricult
 
 This public showcase is intentionally sanitized. It is designed for investors, accelerators, technical founders, and Project Europe-style reviewers who need to understand that the project is real and technically substantial without receiving proprietary source code, prompts, schemas, credentials, private data, or Git history.
 
+[![Stage: Functional prototype](https://img.shields.io/badge/stage-functional_prototype-2f855a)](#current-stage)
+[![Focus: Agricultural intelligence](https://img.shields.io/badge/focus-agricultural_intelligence-f4b942)](#why-beekeeping-first)
+[![Disclosure: Sanitized showcase](https://img.shields.io/badge/disclosure-sanitized_showcase-4a5568)](SECURITY_AND_DISCLOSURE.md)
+
+## Explore
+
+[Problem](#problem) | [Working capabilities](#what-currently-works) | [Validation](#current-validation-status) | [Architecture](ARCHITECTURE.md) | [Progress](PROGRESS.md) | [Roadmap](ROADMAP.md)
+
+## Platform Trajectory
+
+```mermaid
+flowchart LR
+    K["Trusted knowledge"] --> S["Sensing"]
+    S --> U["Local understanding"]
+    U --> D["Evidence-grounded decisions"]
+    D -. "future, supervised" .-> A["Physical action"]
+
+    classDef current fill:#d9f2e6,stroke:#2f855a,color:#173d2b
+    classDef future fill:#f7fafc,stroke:#718096,color:#2d3748,stroke-dasharray: 5 5
+    class K,S,U,D current
+    class A future
+```
+
+<details>
+<summary><strong>What is included in this public repository?</strong></summary>
+
+This repository contains a sanitized product narrative, architecture, progress record, roadmap, and synthetic examples. The private implementation, prompts, schemas, credentials, raw telemetry, and proprietary datasets are deliberately excluded. See [Security and Disclosure](SECURITY_AND_DISCLOSURE.md) for the complete boundary.
+
+</details>
+
 ## Short Description
 
 Bee Intelligence is building the intelligence layer for agricultural operations. Beekeeping is the first proving ground because hives are biologically complex, economically important, sensor-friendly, and operationally constrained: good decisions depend on weather, colony condition, disease risk, hive history, expert knowledge, and local observations.
